@@ -4,7 +4,9 @@
     margin: 0;
 }
 body {
-    background-color: #d9dcd6;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
 }
 header{
     display: flex;
@@ -14,14 +16,16 @@ header{
     color:black;
     justify-content: space-between;
     flex-wrap: wrap;
-        
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/brandi-redd-aJTiW00qqtI-unsplash.jpg);
         }
     
 header h1 {
         
         
     font-size: 30px;
-    background-color:lightgreen;
+    background-color:lightgrey;
     color: dark blue;
     padding-right: 2px;
         
@@ -33,7 +37,7 @@ header nav {
     margin: 7px 0px;
     font-size: 20px;
     color:lightgreen;
-    background-color: red;
+    background-color: lightslategray;
     
     }
 header nav ul {
@@ -43,7 +47,7 @@ header nav ul {
             align-items: center;
             list-style: none;
             color:lightgreen;
-            background-color: black;
+           
           }
           
 header nav ul li {
@@ -62,6 +66,10 @@ header nav ul li {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
+    
     
 
     }
@@ -108,11 +116,19 @@ header nav ul li {
 
 .LED-Wall {
     width: 1200px;
+    height: 300px;
     border: red;
     height: 50px;
     border-style: solid;
     background-color: goldenrod;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .calculator {
     display: flex;
@@ -122,6 +138,9 @@ header nav ul li {
     border-style: solid;
     background-color: goldenrod;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/pawel-czerwinski-0UMy_4q6QQE-unsplash.jpg);
 }
 .Pastel-Puzzels {
     display: flex;
@@ -131,6 +150,10 @@ header nav ul li {
     border-style: solid;
     background-color: goldenrod;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/henry-co-tqu0IOMaiU8-unsplash.jpg);
+
 }
 .Run-Buddy {
     display: flex;
@@ -140,6 +163,9 @@ header nav ul li {
     border-style: solid;
     background-color: goldenrod;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/dana-devolk-E0BdstzaO8E-unsplash.jpg);
 }
 
     
